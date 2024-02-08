@@ -43,7 +43,7 @@ export function NoteCard({ note, onNoteDeleted }: NoteCardProps) {
                             {note.content}
                         </p>
 
-                        <div className='absolute bottom-0 left-0 right-0 h-1/2 bg-gradient-to-t from-black/60 to-black/0 pointer-events-none' />
+                        <div className='absolute bottom-0 left-0 right-0 h-1/2 pointer-events-none' />
                     </div>
 
                     <button
